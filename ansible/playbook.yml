@@ -1,0 +1,10 @@
+- hosts: all
+  tasks:
+    - name: Installing nginx
+      apt: name=nginx update_cache=yes
+    - name: Starting nginx on boot
+      service: name=nginx enabled=yes state=started
+    - name: Installing apacke2
+      apt: name=apache2 update_cahce=yes
+    - name: Starting apache2 on boot
+      service: name=apache2 enabled=yes state=started
