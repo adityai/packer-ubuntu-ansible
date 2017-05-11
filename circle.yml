@@ -2,7 +2,7 @@ dependencies:
   pre: 
    - sudo apt-get update; sudo apt-get install -y python2.7 python-pip curl wget unzip
    - wget https://releases.hashicorp.com/packer/1.0.0/packer_1.0.0_freebsd_amd64.zip
-   - unzip packer_1.0.0_freebsd_amd64.zip -d /tmp/packer/
+   - unzip packer_1.0.0_freebsd_amd64.zip -d /tmp/
    - ls -ltr /tmp/packer/
    - export PACKER=/tmp/packer
    - export PATH=$PATH:$PACKER
