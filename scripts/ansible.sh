@@ -7,5 +7,4 @@ apt-add-repository ppa:ansible/ansible
 
 # Install Ansible.
 apt -y update
-apt -y install ansible
-
+apt -y install epel-release git python-setuptools gcc sudo libffi-devel python-devel openssl-devel ansible
