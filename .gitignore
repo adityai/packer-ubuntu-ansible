@@ -1,0 +1,3 @@
+output-virtualbox-iso/
+packer-ubuntu-16.04-amd64-vmware/
+packer_cache/
